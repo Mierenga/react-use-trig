@@ -1,7 +1,7 @@
-import useTrigs from 'react-use-trig';
+import useTrig from 'react-use-trig';
 
-function Example(): JSX.Element {
-  const { trig } = useTrigs();
+export default function Example(): JSX.Element {
+  const { trig } = useTrig();
 
   trig(setTimeout(() => console.log('pass a NodeJS.Timeout returned from setTimeout()'), 1000));
 

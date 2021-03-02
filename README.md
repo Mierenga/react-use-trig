@@ -9,10 +9,10 @@ When using `trig()`, every time a component is cleaned up by React, it's pending
 
 Learn how to use it in 6 seconds:
 ts```
-import useTrigs from 'react-use-trig';
+import useTrig from 'react-use-trig';
 
 function Example(): JSX.Element {
-  const { trig } = useTrigs();
+  const { trig } = useTrig();
 
   trig(setTimeout(() => console.log('pass a NodeJS.Timeout returned from setTimeout()'), 1000));
 
