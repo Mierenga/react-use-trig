@@ -8,7 +8,7 @@ When using `trig()`, every time a component is cleaned up by React, it's pending
 ## Usage
 
 Learn how to use it in 6 seconds:
-ts```
+```ts
 import useTrig from 'react-use-trig';
 
 function Example(): JSX.Element {
@@ -22,6 +22,7 @@ function Example(): JSX.Element {
   ]);
 
   trig({ t: 4000, f: () => console.log('pass TimeoutArgs with milliseconds t and function f') });
+  
   trig([
     { t: 5000, f: () => console.log('pass an array of TimeoutArgs') },
     { t: 6000, f: () => console.log('pass an array of TimeoutArgs') },
@@ -32,7 +33,7 @@ function Example(): JSX.Element {
 ```
 
 > [trig](https://en.wiktionary.org/wiki/trig) : __adjective__ (comparative trigger, superlative triggest)
-> • True; trusty; trustworthy; faithful.
-> • Safe; secure.
-> • Tight; firm; steady; sound; in good condition or health.
-> • Neat; tidy; trim; spruce; smart.
+> -  True; trusty; trustworthy; faithful.
+> - Safe; secure.
+> - Tight; firm; steady; sound; in good condition or health.
+> - Neat; tidy; trim; spruce; smart.
