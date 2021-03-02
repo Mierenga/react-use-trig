@@ -2,7 +2,11 @@
   "name": "react-use-trigs",
   "version": "0.1.0",
   "description": "React Hook that manages and cleans up after calls to setTimeout()",
-  "repository": "https://github.com/Mierenga/react-use-trig",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mierenga/react-use-trig.git"
+  },
+  "homepage": "https://github.com/Mierenga/react-use-trig#readme",
   "keywords": [
     "react",
     "hook",
