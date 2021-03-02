@@ -1,5 +1,5 @@
 {
-  "name": "react-use-trigs",
+  "name": "react-use-trig",
   "version": "0.1.0",
   "description": "React Hook that manages and cleans up after calls to setTimeout()",
   "repository": {
