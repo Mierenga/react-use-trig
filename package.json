@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "description": "React Hook that manages and cleans up after calls to setTimeout()",
   "repository": "https://github.com/Mierenga/react-use-trig",
+  "keywords": [ "react", "hook", "hooks", "setTimeout", "clearTimeout", "cleanup", "unmount", "trigger" ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "mierenga",
+  "author": "mierenga <hello@distro.work>",
   "license": "MIT",
   "peerDependencies": {
     "react": "^17.0.1"
