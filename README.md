@@ -5,6 +5,9 @@
 It triggers functions and keeps them from leaking all over the floor.
 When using `trig()`, every time a component is cleaned up by React, it's pending Timeouts are cleared.
 
+## Install
+`npm install react-use-trig`
+
 ## Usage
 
 Learn how to use it in 6 seconds:
