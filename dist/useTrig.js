@@ -7,13 +7,14 @@ function useTrig() {
     react_1.useEffect(() => {
         return () => timeouts.current.forEach(clearTimeout);
     }, []);
+    const trig = react_1.useCallback((t) => {
+        const values = Array.isArray(t) ? t : [t];
+        const newTimeouts = values.map(v => 'f' in v ? setTimeout(v.f, v.t) : v);
+        timeouts.current.push(...newTimeouts);
+        return newTimeouts;
+    }, []);
     return {
-        trig: (t) => {
-            const values = Array.isArray(t) ? t : [t];
-            const newTimeouts = values.map(v => 'f' in v ? setTimeout(v.f, v.t) : v);
-            timeouts.current.push(...newTimeouts);
-            return newTimeouts;
-        },
+        trig,
     };
 }
 exports.default = useTrig;
